@@ -1,0 +1,44 @@
+
+.tarea-realizada {
+    font-weight: bold;
+  
+}
+
+.caja {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #dbdbdb;
+}
+
+
+.cajaTareas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cajaTareas th, .cajaTareas td {
+    padding: 10px;
+    text-align: left;
+}
+
+.cajaTareas th {
+    background-color: #ffffff;
+}
+
+
+.cajaTareas td {
+    vertical-align: top;
+}
+
+.boton{
+    margin-left: 20px;
+}
+
+.resumen{
+    display: flex;
+    flex-direction:column ;
+}
